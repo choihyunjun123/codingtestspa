@@ -6,7 +6,6 @@ public class GroupAnagrams {
     public static void main(String[] args) {
         String[] strs = {"eat", "tea", "tan", "ate", "nat", "bat"};
         HashMap<String, List<String>> map = new HashMap<>();
-        List<List<String>> answer = new ArrayList<>();
         for (String a : strs) {
             char[] chars = a.toCharArray();
             Arrays.sort(chars);
