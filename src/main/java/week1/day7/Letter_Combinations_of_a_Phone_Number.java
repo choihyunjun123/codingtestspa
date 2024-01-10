@@ -8,10 +8,10 @@ public class Letter_Combinations_of_a_Phone_Number {
     public static void main(String[] args) {
         String digits = "";
 
+        List<String> answer = new ArrayList<>();
         if (digits.isEmpty()) {
             return;
         }
-        List<String> answer = new ArrayList<>();
         StringBuilder word = new StringBuilder();
         DFS(digits, 0, word, answer);
         System.out.println(answer);
@@ -29,6 +29,4 @@ public class Letter_Combinations_of_a_Phone_Number {
             word.deleteCharAt(i);
         }
     }
-
-
 }
