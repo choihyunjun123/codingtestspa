@@ -8,7 +8,6 @@ public class Baek_7562 {
     static int L, x, y, xx, yy;
     static int[][] coordinate;
     static boolean[][] visited;
-    static int count;
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
