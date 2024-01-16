@@ -1,4 +1,4 @@
-package week1.day5;
+package Jan_8;
 
 public class Reverse_Linked_List {
     public class ListNode {
